@@ -5,20 +5,20 @@ This repository contains my work for the Principles of Programming course. The m
 ## Evaluators
 
 ### EVA
-The EVA evaluator, implemented in [`A1.eva.rkt`](command:_github.copilot.openRelativePath?%5B%22A1.eva.rkt%22%5D "A1.eva.rkt"), is the simplest of the three. It evaluates expressions in a basic arithmetic language.
+The EVA evaluator, implemented in [`eva.rkt`](command:_github.copilot.openRelativePath?%5B%22eva.rkt%22%5D "eva.rkt"), is the simplest of the three. It evaluates expressions in a basic arithmetic language.
 
 ### EVE
-The EVE evaluator, implemented in [`A1.eve.rkt`](command:_github.copilot.openRelativePath?%5B%22A1.eve.rkt%22%5D "A1.eve.rkt"), is a bit more complex. It evaluates expressions in a language that supports closures.
+The EVE evaluator, implemented in [`eve.rkt`](command:_github.copilot.openRelativePath?%5B%22eve.rkt%22%5D "eve.rkt"), is a bit more complex. It evaluates expressions in a language that supports closures.
 
 ### EVO
-The EVO evaluator, implemented in [`A1.evo.rkt`](command:_github.copilot.openRelativePath?%5B%22A1.evo.rkt%22%5D "A1.evo.rkt"), is the most complex. It evaluates expressions in a language that supports setting values within mutable boxes.
+The EVO evaluator, implemented in [`evo.rkt`](command:_github.copilot.openRelativePath?%5B%22evo.rkt%22%5D "evo.rkt"), is the most complex. It evaluates expressions in a language that supports setting values within mutable boxes.
 
 ## Running Tests
 
-Each evaluator has its own test file: [`A1.eva-test.rkt`](command:_github.copilot.openRelativePath?%5B%22A1.eva-test.rkt%22%5D "A1.eva-test.rkt"), [`A1.eve-test.rkt`](command:_github.copilot.openRelativePath?%5B%22A1.eve-test.rkt%22%5D "A1.eve-test.rkt"), and [`A1.evo-test.rkt`](command:_github.copilot.openRelativePath?%5B%22A1.evo-test.rkt%22%5D "A1.evo-test.rkt"). To run the tests for an evaluator, simply open the corresponding test file in your Racket environment and run it.
+Each evaluator has its own test file: [`eva-test.rkt`](command:_github.copilot.openRelativePath?%5B%22eva-test.rkt%22%5D "eva-test.rkt"), [`eve-test.rkt`](command:_github.copilot.openRelativePath?%5B%22eve-test.rkt%22%5D "eve-test.rkt"), and [`evo-test.rkt`](command:_github.copilot.openRelativePath?%5B%22evo-test.rkt%22%5D "evo-test.rkt"). To run the tests for an evaluator, simply open the corresponding test file in your Racket environment and run it.
 
 ```sh
-racket A1.eva-test.rkt
-racket A1.eve-test.rkt
-racket A1.evo-test.rkt
+racket eva-test.rkt
+racket eve-test.rkt
+racket evo-test.rkt
 ```
