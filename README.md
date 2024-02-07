@@ -8,7 +8,7 @@ This repository contains my work for the Principles of Programming course. The m
 The EVA evaluator, implemented in [`A1.eva.rkt`](command:_github.copilot.openRelativePath?%5B%22A1.eva.rkt%22%5D "A1.eva.rkt"), is the simplest of the three. It evaluates expressions in a basic arithmetic language.
 
 ### EVE
-The EVE evaluator, implemented in [`A1.eve.rkt`](command:_github.copilot.openRelativePath?%5B%22A1.eve.rkt%22%5D "A1.eve.rkt"), is a bit more complex. It evaluates expressions in a language that supports closures, allowing for functions to be first-class citizens.
+The EVE evaluator, implemented in [`A1.eve.rkt`](command:_github.copilot.openRelativePath?%5B%22A1.eve.rkt%22%5D "A1.eve.rkt"), is a bit more complex. It evaluates expressions in a language that supports closures.
 
 ### EVO
 The EVO evaluator, implemented in [`A1.evo.rkt`](command:_github.copilot.openRelativePath?%5B%22A1.evo.rkt%22%5D "A1.evo.rkt"), is the most complex. It evaluates expressions in a language that supports setting values within mutable boxes.
