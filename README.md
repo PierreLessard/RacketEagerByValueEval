@@ -15,10 +15,14 @@ The EVO evaluator, implemented in [`evo.rkt`](command:_github.copilot.openRelati
 
 ## Running Tests
 
-Each evaluator has its own test file: [`eva-test.rkt`](command:_github.copilot.openRelativePath?%5B%22eva-test.rkt%22%5D "eva-test.rkt"), [`eve-test.rkt`](command:_github.copilot.openRelativePath?%5B%22eve-test.rkt%22%5D "eve-test.rkt"), and [`evo-test.rkt`](command:_github.copilot.openRelativePath?%5B%22evo-test.rkt%22%5D "evo-test.rkt"). To run the tests for an evaluator, simply open the corresponding test file in your Racket environment and run it.
+Each evaluator has its own test file: not available at this time without skeleton. To run the tests for an evaluator, simply open the corresponding test file in your Racket environment and run it.
 
 ```sh
 racket eva-test.rkt
 racket eve-test.rkt
 racket evo-test.rkt
 ```
+
+## Future Course Considerations
+
+If you are a course instructor for the course and are worried about these responses being similar to solutions for future assignment for this course, please feel free to reach out to me and I will prompty private this repository until the assignment date has passed.
