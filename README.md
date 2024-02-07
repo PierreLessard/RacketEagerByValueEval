@@ -11,7 +11,7 @@ The EVA evaluator, implemented in [`A1.eva.rkt`](command:_github.copilot.openRel
 The EVE evaluator, implemented in [`A1.eve.rkt`](command:_github.copilot.openRelativePath?%5B%22A1.eve.rkt%22%5D "A1.eve.rkt"), is a bit more complex. It evaluates expressions in a language that supports closures, allowing for functions to be first-class citizens.
 
 ### EVO
-The EVO evaluator, implemented in [`A1.evo.rkt`](command:_github.copilot.openRelativePath?%5B%22A1.evo.rkt%22%5D "A1.evo.rkt"), is the most complex. It evaluates expressions in a language that supports object-oriented programming, including classes and inheritance.
+The EVO evaluator, implemented in [`A1.evo.rkt`](command:_github.copilot.openRelativePath?%5B%22A1.evo.rkt%22%5D "A1.evo.rkt"), is the most complex. It evaluates expressions in a language that supports setting values within mutable boxes.
 
 ## Running Tests
 
